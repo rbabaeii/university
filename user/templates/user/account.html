@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="fa">
+    <head>
+        {% load static %}
+        <title>حساب کاربری</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="{% static 'user/style/account.css' %}">
+    </head>
+    <body>
+        <a href="{% url 'home_page' %}" class="rr">بازگشت</a>
+        <form action="#" method="post">
+			{% csrf_token %}
+            <input type="text" required placeholder="نام کاربری" title="کد دانشجویی" name="username"><br>
+            <input type="password" placeholder="رمز عبور" required name="password"><br>
+            <button type="submit">ورود</button>
+        </form>
+    </body>
+</html>

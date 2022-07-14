@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fa">
+    <head>
+        {% load static %}
+        <title>4001041502</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="{% static 'home/style/inde.css' %}">
+    </head>
+    <body>
+        <ul>
+            <!-- <li class="menu-li"><a href="html/account.html" class="menu-a">اکانت</a></li> -->
+            <li class="menu-li"><a href="{% url 'nomre' %}" class="menu-a">  نمرات من </a></li>
+            <li class="menu-li"><a href="#contt" class="menu-a">راه های ارتباطی با من</a></li>
+        </ul>
+        <div class="welccome">
+            <h1>خوش آمدید</h1>
+            <p class="tex">ز گهواره تا گور دانش بجوی</p>
+            <a href="{% url 'nomre' %}" class="manage"><img src="{% static 'home/img/stu.png' %}" alt="مشخصات"></a>
+        </div>
+        <div class="contact" id="contt">
+            <img src="{% static 'home/img/insta.png' %}" alt="اینستا" class="cont1">
+            <img src="{% static 'home/img/telegram.png' %}" alt="تلگرام" class="cont2">
+            <img src="{% static 'home/img/youtube.png' %}" alt="یوتوب" class="cont3">
+        </div>
+    </body>
+</html>

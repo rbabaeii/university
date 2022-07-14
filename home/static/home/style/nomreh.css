@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    font-family: 'all';
+    margin: 0;
+}
+*::selection{
+    background-color: black;
+    color: white;
+}
+@font-face {
+    font-family: 'all';
+    src: url(../fonts/Yekan.ttf);
+}
+body{
+    background-image: url(../img/eduction.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken;
+}
+.logout {
+    background: #444;
+    padding-left: 31px;
+}
+
+.back{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 4px 10px;
+    border-radius: 8px;
+    display: block;
+    width: 100px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 20px 20px 0 auto;
+}
+.back:hover{
+    background-color: black;
+    color: white;
+}
+.all{
+    width: 800px;
+    margin: 50px auto auto;
+}
+.one{
+    position: relative;
+    text-align: center;
+    padding: 10px 0 0 0;
+    width: 100%;
+    height: 450px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.one h2,.two h2,.three h2{
+    background-color: gray;
+    width: 200px;
+    text-align: center;
+    margin: 20px 20px 20px auto;
+    border-radius: 8px;
+}
+.depart1-one,.depart2-one,.depart3-one{
+    width: 264px;
+    display: inline-block;
+    height: 100%;
+}
+.depart1-one{
+    position: relative;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+}
+.depart3-one{
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+}
+.div-depart3-one ,.div-depart2-one{
+    height: 37px;
+    margin:0 auto 4px auto;
+    border-radius:8px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px;
+    width:90%
+}
+#o{
+    margin-top: 10px;
+}
+.p-depart3-one1,.p-depart3-one2,.p-depart2-one1,.p-depart2-one2{
+    border-radius: 5px;
+    margin: 7px 0;
+}
+.p-depart3-one1,.p-depart2-one1{
+    float: right;
+    font-size: 14px;
+}
+.p-depart3-one2,.p-depart2-one2{
+    float: left;
+    background-color: black;
+    color: white;
+}
+.mashghool{
+    text-decoration: none;
+}
+.mashghool:hover{
+    text-shadow: 0 0 10px chocolate;
+}
+.daneshjoo{
+    width: 200px;
+    right: 30px;
+    height:300px;
+    position: absolute;
+    border-radius: 10px;
+    display: inline-block;
+}
+.o1,.o2{
+    position: absolute;
+    display: inline-block;
+    text-decoration: none;
+    background-color: gray;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.o1{
+    top: 400px;
+    right: 40px;
+}
+.o2{
+    top: 400px;
+    right: 200px;
+}
+.o1:hover,.o2:hover{
+    background-color: black;
+    color:white;
+}
+.two,.three{
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    background-color: white;
+    margin:40px auto auto;
+}
+.explane-two{
+    height: 150px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: chocolate;
+
+}
+table{
+    height: 200px;
+    width: 100%;
+}
+.tr-1-two{
+    background-color: gray;
+    height: 60px;
+}
+.th-1-two{
+    border-radius: 8px;
+}
+.tr-2-two,.tr-3-two,.tr-4-two,.tr-5-two,.tr-6-two,.tr-7-two{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 80px;
+}
+.td-2-two{
+    text-align: center;
+}
+.pp1,.pp2,.pp3{
+    display: inline-block;
+    width: 200px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-left: 40px;
+    border-radius: 8px;
+    padding: 5px;
+}
+.gg{
+    text-decoration: none;
+}
+h4{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 25px;
+}
+.explane-two1{
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
