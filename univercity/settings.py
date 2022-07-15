@@ -75,22 +75,22 @@ WSGI_APPLICATION = 'univercity.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'qohoinob',
-        'USER': 'qohoinob',
-        'PASSWORD': 'AHdTNY91uvgnvGc2_p_AHFeZLMyvCIZl',
-        'HOST': 'tuffi.db.elephantsql.com',
-        'PORT': '5432',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'qohoinob',
+#         'USER': 'qohoinob',
+#         'PASSWORD': 'AHdTNY91uvgnvGc2_p_AHFeZLMyvCIZl',
+#         'HOST': 'tuffi.db.elephantsql.com',
+#         'PORT': '5432',
+#     }
+# }
 
 
 
@@ -129,7 +129,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
 STATIC_URL = 'static/'
-STATIC_ROOT = "staticfiles/"
+
+STATIC_ROOT = '/home/elovupoa/public_html/static'
+MEDIA_ROOT = '/home/elovupoa/public_html/media'
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 

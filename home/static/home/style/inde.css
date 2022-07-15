@@ -12,7 +12,7 @@
     src: url(../fonts/Yekan.ttf);
 }
 body{
-    background-image: url(../img/back.jpg);
+    background-image: url(../img/back1.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -45,6 +45,7 @@ ul{
     background-color: rgb(255, 255, 255);
     height: 400px;
     border-radius: 8px;
+    text-align: center;
     box-shadow: 0 0 10px red,inset 0 0 10px;
     padding: 20px 0 0 0;
 }
@@ -72,13 +73,14 @@ p.tex{
     height: 100%;
 }
 .manage{
-    display: block;
+    display: inline-block;
     padding: 5px;
-    width: 120px;
+    width: 100px;
     height: 120px;
     border-radius: 50%;
     box-shadow: 0 0 10px black;
-    margin: 50px auto auto;
+    margin: 50px 0 0 20px;
+
 }
 .manage:hover{
     box-shadow: 0 0 10px red;

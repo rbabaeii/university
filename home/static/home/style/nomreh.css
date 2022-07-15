@@ -12,11 +12,12 @@
     src: url(../fonts/Yekan.ttf);
 }
 body{
-    background-image: url(../img/eduction.jpg);
+    background-image: url(../img/nomre.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: rgba(0,0,0,0.5);
+    /* background-color: rgba(0,0,0,0.5); */
+    color : black;
     background-blend-mode: darken;
 }
 .logout {
@@ -37,8 +38,9 @@ body{
     margin: 20px 20px 0 auto;
 }
 .back:hover{
-    background-color: black;
-    color: white;
+    /* background-color: black; */
+    /* color: white; */
+    color : black;
 }
 .all{
     width: 800px;
@@ -95,8 +97,9 @@ body{
 }
 .p-depart3-one2,.p-depart2-one2{
     float: left;
-    background-color: black;
-    color: white;
+    /* background-color: black; */
+    /* color: white; */
+    color : black;
 }
 .mashghool{
     text-decoration: none;
@@ -130,8 +133,8 @@ body{
     right: 200px;
 }
 .o1:hover,.o2:hover{
-    background-color: black;
-    color:white;
+    /* background-color: black; */
+    color : black;
 }
 .two,.three{
     border-radius: 10px;
@@ -139,12 +142,12 @@ body{
     width: 100%;
     background-color: white;
     margin:40px auto auto;
+    color : black
 }
 .explane-two{
     height: 150px;
     box-sizing: border-box;
     width: 100%;
-    background-color: chocolate;
 
 }
 table{
@@ -159,8 +162,9 @@ table{
     border-radius: 8px;
 }
 .tr-2-two,.tr-3-two,.tr-4-two,.tr-5-two,.tr-6-two,.tr-7-two{
-    background-color: black;
-    color: white;
+    /* background-color: black; */
+    /* color: white; */
+    color : black;
     height: 40px;
     width: 80px;
 }
@@ -170,8 +174,9 @@ table{
 .pp1,.pp2,.pp3{
     display: inline-block;
     width: 200px;
-    background-color: black;
-    color: white;
+    /* background-color: black; */
+    /* color: white; */
+    color : black;
     text-align: center;
     margin-left: 40px;
     border-radius: 8px;
