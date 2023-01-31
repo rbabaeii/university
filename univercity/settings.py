@@ -130,8 +130,8 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-STATIC_ROOT = '/home/elovupoa/public_html/static'
-MEDIA_ROOT = '/home/elovupoa/public_html/media'
+STATIC_ROOT = '/home/tmsupvpg/public_html/static'
+MEDIA_ROOT = '/home/tmsupvpg/public_html/media'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field

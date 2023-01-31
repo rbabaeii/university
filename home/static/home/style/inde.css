@@ -82,6 +82,8 @@ p.tex{
     margin: 50px 0 0 20px;
 
 }
+
+
 .manage:hover{
     box-shadow: 0 0 10px red;
 }

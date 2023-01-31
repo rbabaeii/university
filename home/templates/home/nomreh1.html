@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="fa">
+    <head>
+    {% load static %}
+        <title>مشخصات</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="{% static 'home/style/nomreh.css' %}">
+    </head>
+    <body>
+        <a href="{% url 'home_page' %}" class="back">صفحه اصلی</a>
+        <a href="{% url 'logout' %} "> <button class="logout"> خروج از حساب کاربری
+        </button> </a> 
+        <div class="all">
+            <div class="one">
+                <h2>اطلاعات جامع دانشجو</h2> 
+                <div class="depart1-one">
+                    <img class="daneshjoo" src="{% static 'home/img/person.jpg' %}" alt="عکس دانشجو">
+                </div>
+                <div class="depart2-one">
+                    <div class="div-depart2-one"  id="o" >
+                        <p class="p-depart2-one1">:دانشکده</p>
+                        <p class="p-depart2-one2">ادبیات و علوم انسانی</p>
+                    </div>
+                    <div class="div-depart2-one">
+                        <p class="p-depart2-one1">:گروه آموزشی</p>
+                        <p class="p-depart2-one2">حقوق</p>
+                    </div>
+                    <div class="div-depart2-one">
+                        <p class="p-depart2-one1">:رشته</p>
+                        <p class="p-depart2-one2">فقه و حقوق اسلامی</p>
+                    </div>
+                    <div class="div-depart2-one">
+                        <p class="p-depart2-one1">:مقطع و دوره</p>
+                        <p class="p-depart2-one2">کارشناسی روزانه</p>
+                    </div>
+                    <div class="div-depart2-one">
+                        <p class="p-depart2-one1">:واحد/مرکز</p>
+                        <p class="p-depart2-one2">دانشکاه</p>
+                    </div>
+                    <div class="div-depart2-one">
+                        <p class="p-depart2-one1">:آخرین وضعیت</p>
+                        <p class="p-depart2-one2"><a href="" class="mashghool">مشغول به تحصیل</a></p>
+                    </div>
+                    <div class="div-depart2-one">
+                        <p class="p-depart2-one1">:اجازه ثبت نام</p>
+                        <p class="p-depart2-one2">دارد</p>
+                    </div>
+                </div>
+                <div class="depart3-one">
+                    <div id="o" class="div-depart3-one">
+                        <p class="p-depart3-one1">:شماره دانشجو</p>
+                        <p class="p-depart3-one2">4001041502</p>
+                    </div>
+                    <div class="div-depart3-one">
+                        <p class="p-depart3-one1">:نام و نام خانوادگی</p>
+                        <p class="p-depart3-one2">حقانی بذری محمد</p>
+                    </div>
+                    <div class="div-depart3-one">
+                        <p class="p-depart3-one1">:نام پدر</p>
+                        <p class="p-depart3-one2">محمد رضا</p>
+                    </div>
+                    <div class="div-depart3-one">
+                        <p class="p-depart3-one1">:معدل کل</p>
+                        <p class="p-depart3-one2">19.04</p>
+                    </div>
+                    <div class="div-depart3-one">
+                        <p class="p-depart3-one1">:واحد گذرانده</p>
+                        <p class="p-depart3-one2">36.00</p>
+                    </div>
+                    <div class="div-depart3-one">
+                        <p class="p-depart3-one1">:مشروطی کل</p>
+                        <p class="p-depart3-one2">0 , متوالی : 0 , خاص : 0</p>
+                    </div>
+                    <div class="div-depart3-one">
+                        <p class="p-depart3-one1">:استاد راهنما</p>
+                        <p class="p-depart3-one2">پرهام مهر حمیدرضا</p>
+                    </div>
+                </div>
+                <!-- <a href="" class="o1">تحصیلات شخص</a>
+                <a href="" class="o2">نوع ورود و تهسیلات</a> -->
+            </div>
+            <div class="three">
+                <div class="explane-two1">
+                    <h2>اطلاعات جامع دانشجو</h2>
+                    <h4>کارنامه ترمی 4001</h4>
+                </div>
+                <table>
+                    <tr class="tr-1-two">
+                        <th class="th-1-two">نوع ثبت نام</th>
+                        <th class="th-1-two">نوع درس</th>
+                        <th class="th-1-two">وضع درس</th>
+                        <th class="th-1-two">وضع نمره</th>
+                        <th class="th-1-two">نتیجه نمره</th>
+                        <th class="th-1-two">نمره</th>
+                        <th class="th-1-two">واحد</th>
+                        <th class="th-1-two">نام درس</th>
+                        <th class="th-1-two">شماره و گروه درس</th>
+                        <th class="th-1-two">ردیف</th>
+                    </tr>
+                    <tr class="tr-2-two">
+                        <td class="td-2-two">عادی</td>
+                        <td class="td-2-two">تخصصی</td>
+                        <td class="td-2-two">عادی</td>
+                        <td class="td-2-two">اعلام شده</td>
+                        <td class="td-2-two">قبول</td>
+                        <td class="td-2-two">17</td>
+                        <td class="td-2-two">0 | 4</td>
+                        <td class="td-2-two">فقه 1</td>
+                        <td class="td-2-two">18 |  16 | 400 | 01</td>
+                        <td class="td-2-two">1</td>
+                    </tr>
+                    <tr class="tr-3-two">
+                        <td class="td-2-two">عادی</td>
+                        <td class="td-2-two">پایه</td>
+                        <td class="td-2-two">عادی</td>
+                        <td class="td-2-two">اعلام شده</td>
+                        <td class="td-2-two">قبول</td>
+                        <td class="td-2-two">18</td>
+                        <td class="td-2-two">0 | 3</td>
+                        <td class="td-2-two">مبانی اصول فقه</td>
+                        <td class="td-2-two">18 | 16 | 405 | 01</td>
+                        <td class="td-2-two">2</td>
+                    </tr>
+                    <tr class="tr-4-two">
+                        <td class="td-2-two">عادی</td>
+                        <td class="td-2-two">پایه</td>
+                        <td class="td-2-two">عادی</td>
+                        <td class="td-2-two">اعلام شده</td>
+                        <td class="td-2-two">قبول</td>
+                        <td class="td-2-two">15.5</td>
+                        <td class="td-2-two">0 | 2</td>
+                        <td class="td-2-two">مقدمه علم حقوق</td>
+                        <td class="td-2-two">18 | 16 | 406 | 01</td>
+                        <td class="td-2-two">3</td>
+                    </tr>
+                    <tr class="tr-5-two">
+                        <td class="td-2-two">عادی</td>
+                        <td class="td-2-two">پایه</td>
+                        <td class="td-2-two">عادی</td>
+                        <td class="td-2-two">اعلام شده</td>
+                        <td class="td-2-two">قبول</td>
+                        <td class="td-2-two">17.5</td>
+                        <td class="td-2-two">0 | 4</td>
+                        <td class="td-2-two">ادبیات عرب 1</td>
+                        <td class="td-2-two">18 | 16 | 407 | 01</td>
+                        <td class="td-2-two">4</td>
+                    </tr>
+                    <tr class="tr-6-two">
+                        <td class="td-2-two">عادی</td>
+                        <td class="td-2-two">عمومی</td>
+                        <td class="td-2-two">عادی</td>
+                        <td class="td-2-two">اعلام شده</td>
+                        <td class="td-2-two">قبول</td>
+                        <td class="td-2-two">11.5</td>
+                        <td class="td-2-two">0 | 3</td>
+                        <td class="td-2-two">زبان انگلیسی عمومی</td>
+                        <td class="td-2-two">18 | 16 | 408 | 01</td>
+                        <td class="td-2-two">5</td>
+                    </tr>
+                    <tr class="tr-7-two">
+                        <td class="td-2-two">عادی</td>
+                        <td class="td-2-two">عمومی</td>
+                        <td class="td-2-two">عادی</td>
+                        <td class="td-2-two">اعلام شده</td>
+                        <td class="td-2-two">قبول</td>
+                        <td class="td-2-two">15</td>
+                        <td class="td-2-two">0 | 2</td>
+                        <td class="td-2-two">دانش خانواده و جمعیت</td>
+                        <td class="td-2-two">18 | 16 | 409 | 01</td>
+                        <td class="td-2-two">6</td>
+                    </tr>
+                </table>
+            </div>
+            {% comment %} <div class="two">
+                <h4>کارنامه ترمی 4002</h4>
+
+                <div class="explane-two">
+                    <h2>ترم  برتر</h2>
+                    <h2>اطلاعات جامع دانشجو</h2>
+                    <p class="pp2">نوع ترم : <a class="gg" href="">عادی</a></p>
+                    <p class="pp1">وضعیت ترم : <a class="gg" href="">مشغول به تحصیل</a></p>
+                    <p class="pp3"> وضع مشروطی : <a class="gg" href="">قبول</a></p>
+                </div>
+                <table>
+                    <tr class="tr-1-two">
+                        <th class="th-1-two">نوع ثبت نام</th>
+                        <th class="th-1-two">نوع درس</th>
+                        <th class="th-1-two">وضع درس</th>
+                        <th class="th-1-two">وضع نمره</th>
+                        <th class="th-1-two">نتیجه نمره</th>
+                        <th class="th-1-two">نمره</th>
+                        <th class="th-1-two">واحد</th>
+                        <th class="th-1-two">نام درس</th>
+                        <th class="th-1-two">شماره و گروه درس</th>
+                        <th class="th-1-two">ردیف</th>
+                    </tr>
+                    <tr class="tr-2-two">
+                        <td class="td-2-two">عادی</td>
+                        <td class="td-2-two">تخصصی</td>
+                        <td class="td-2-two">عادی</td>
+                        <td class="td-2-two">اعلام شده</td>
+                        <td class="td-2-two">قبول</td>
+                        <td class="td-2-two">19</td>
+                        <td class="td-2-two">0 | 4</td>
+                        <td class="td-2-two">فقه 2</td>
+                        <td class="td-2-two">18 |  16 | 404 | 01</td>
+                        <td class="td-2-two">1</td>
+                    </tr>
+                    <tr class="tr-3-two">
+                        <td class="td-2-two">عادی</td>
+                        <td class="td-2-two">تخصصی</td>
+                        <td class="td-2-two">عادی</td>
+                        <td class="td-2-two">اعلام شده</td>
+                        <td class="td-2-two">قبول</td>
+                        <td class="td-2-two">19</td>
+                        <td class="td-2-two">0 | 4</td>
+                        <td class="td-2-two">اصول فقه 1</td>
+                        <td class="td-2-two">18 | 16 | 405 | 01</td>
+                        <td class="td-2-two">2</td>
+                    </tr>
+                    <tr class="tr-4-two">
+                        <td class="td-2-two">عادی</td>
+                        <td class="td-2-two">پایه</td>
+                        <td class="td-2-two">عادی</td>
+                        <td class="td-2-two">اعلام شده</td>
+                        <td class="td-2-two">قبول</td>
+                        <td class="td-2-two">20</td>
+                        <td class="td-2-two">0 | 4</td>
+                        <td class="td-2-two">ادبیات عرب 2</td>
+                        <td class="td-2-two">18 | 16 | 406 | 01</td>
+                        <td class="td-2-two">3</td>
+                    </tr>
+                    <tr class="tr-5-two">
+                        <td class="td-2-two">عادی</td>
+                        <td class="td-2-two">تخصصی</td>
+                        <td class="td-2-two">عادی</td>
+                        <td class="td-2-two">اعلام شده</td>
+                        <td class="td-2-two">قبول</td>
+                        <td class="td-2-two">17</td>
+                        <td class="td-2-two">0 | 2</td>
+                        <td class="td-2-two">حقوق مدنی 1</td>
+                        <td class="td-2-two">18 | 16 | 407 | 01</td>
+                        <td class="td-2-two">4</td>
+                    </tr>
+                    <tr class="tr-6-two">
+                        <td class="td-2-two">عادی</td>
+                        <td class="td-2-two">تخصصی</td>
+                        <td class="td-2-two">عادی</td>
+                        <td class="td-2-two">اعلام شده</td>
+                        <td class="td-2-two">قبول</td>
+                        <td class="td-2-two">19</td>
+                        <td class="td-2-two">0 | 2</td>
+                        <td class="td-2-two">حقوق جزای عمومی 1</td>
+                        <td class="td-2-two">18 | 16 | 408 | 01</td>
+                        <td class="td-2-two">5</td>
+                    </tr>
+                    <tr class="tr-7-two">
+                        <td class="td-2-two">عادی</td>
+                        <td class="td-2-two">پایه</td>
+                        <td class="td-2-two">عادی</td>
+                        <td class="td-2-two">اعلام شده</td>
+                        <td class="td-2-two">قبول</td>
+                        <td class="td-2-two">19</td>
+                        <td class="td-2-two">0 | 2</td>
+                        <td class="td-2-two">تعلیم و تربیت اسلامی</td>
+                        <td class="td-2-two">18 | 16 | 409 | 01</td>
+                        <td class="td-2-two">6</td>
+                    </tr>
+                </table>
+            </div> {% endcomment %}
+            
+        </div>
+    </body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fa">
+    <head>
+        {% load static %}
+        <title>4001041502</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="{% static 'home/style/inde.css' %}">
+    </head>
+    <body>
+        {% comment %} <ul>
+            <!-- <li class="menu-li"><a href="html/account.html" class="menu-a">اکانت</a></li> -->
+            <li class="menu-li"><a href="{% url 'nomre' %}" class="menu-a">  نمرات من </a></li>
+            <li class="menu-li"><a href="#contt" class="menu-a">راه های ارتباطی با من</a></li>
+        </ul> {% endcomment %}
+        <div class="welccome">
+            <h1>خوش آمدید</h1>
+            <p class="tex">ز گهواره تا گور دانش بجوی</p>
+            <a href="{% url 'term-1' %}" class="manage"><img src="{% static 'home/img/education.png' %}">  1 ترم  </a>
+            <a href="{% url 'term-2' %}" class="manage"><img src="{% static 'home/img/education.png' %}"> 2 ترم</a>
+            <a href="{% url 'term-3' %}" class="manage"><img src="{% static 'home/img/education.png' %}">  3 ترم </a>
+
+
+        </div>
+        <div class="contact" id="contt">
+            <div class="three">
+                <p>اطلاعات تماس</p><hr>
+                <a href="" class="a-one">آدرس پردیس 1:زابل-کیلومتر دو جاده بنجار</a>
+                <a href="" class="a-one">آدرس پردیس 2:زابل-میدان جهاد-خیابان هامون</a>
+                <a href="" class="a-one">کد پستی:98613-35856</a>
+                <a href="" class="a-one">صندوق پستی:98615-538</a>
+                <a href="" class="a-one">info@uoz.ac.ir:پست الکترونیک</a>
+                <a href="" class="a-one">راهنمای تلفن</a>
+                <h2>دانشگاه زابل</h2>
+            </div>
+            <div class="two">
+                <p>پیوند ها</p><hr>
+                <a href="" class="a-one">دفتر مقام معظم رهبری</a>
+                <a href="" class="a-one">دفتر ریاست جمهوری</a>
+                <a href="" class="a-one">سامانه مدیربت ارتباطات مستمر</a>
+                <a href="" class="a-one">ارتباطات مردمی ریاست جمهوری</a>
+                <a href="" class="a-one">شبکه ازمایشگاه های علمی ایران</a>
+                <a href="" class="a-one">وزارت علوم تحقیقات و فناوری</a>
+                <a href="" class="a-one">سامانه رسیدگی به شکایات</a>
+                <a href="" class="a-one">صندوق رفاه داشنجویان</a>
+                <a href="" class="a-one">دبیر خانه شورای عالی علوم | تحقیقات و  فناوری</a>
+            </div>
+            <div class="one">
+                <p>دسترسی سریع</p><hr>
+                <a href="" class="a-one">ارتباط با ریاست دانشگاه</a>
+                <a href="" class="a-one">فرم ها و آیین نامه های اموزش</a>
+                <a href="" class="a-one">رشته های تحصیلی دانشگاه</a>
+                <a href="" class="a-one">اعضای میات علمی</a>
+                <a href="" class="a-one">مدیریت و امور فناوری</a>
+                <a href="" class="a-one">متابخانه مرکزی و مرکزاستاد</a>
+                <a href="" class="a-one">سدف(اینترنت)</a>
+                <a href="" class="a-one">مار گروهی بررسی تخلفات پروهش</a>
+                <a href="" class="a-one">سامانه اموزش الکترونیک دانشگاه</a>
+            </div>
+        </div>
+        </div>
+    </body>
+</html>
